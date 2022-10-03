@@ -36,3 +36,5 @@ PHP OOP Password creating class
           echo '<pre>':
             var_dump($result);
           echo '</pre>';
+          
+NOTE: The Class isn't finished. The frontend isn't working properly,  you should call class manually.
