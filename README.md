@@ -5,7 +5,7 @@ PHP OOP Password creating class
   it can be run in two modes and make output in two possible ways,
   the string where characters are unique, or they are repeating.
 
-       --------------------------------------------------
+
           The class can be called like this : 
     
         $modifiers = Possible Modifiers:
@@ -28,7 +28,7 @@ PHP OOP Password creating class
           echo '<pre>':
             var_dump($result);
           echo '</pre>';
-       --------------------------------------------------
+
        Example: 
        
        $result = $passw->generatePassword(['all'],'unique','3','64');
