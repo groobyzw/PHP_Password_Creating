@@ -25,10 +25,6 @@ PHP OOP Password creating class
 
         $result = $passw->generatePassword([$modifiers],$mode,$amount,$length);
 
-          echo '<pre>':
-            var_dump($result);
-          echo '</pre>';
-
        Example: 
        
        $result = $passw->generatePassword(['all'],'unique','3','64');
